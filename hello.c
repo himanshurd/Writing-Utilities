@@ -1,15 +1,15 @@
 
 #include <stdio.h>
 
-int main()
+int main(int argc, char *argv[])
 {
     int x = 12;
     float y = 3.14;
-    char* s = "Hello World";
+    char* s = "Hello, World!";
 
     int n = 5, i;
 
-    printf("X is %d\n", x);
+    printf("X is %d, ", x);
     printf("Y is %f\n", y);
     printf("%s\n", s);
 
